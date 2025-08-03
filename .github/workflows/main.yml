@@ -2,11 +2,11 @@ name: AjayBavaskar
 
 on:
  push:
-  branches: [main ]
+  branches: [ main ]
 jobs:
   demo: 
    runs-on: ubuntu-latest
 
    steps:
-    -name: Grettings
+    -name: Greetings
      run: echo "Hello from Ajay"
